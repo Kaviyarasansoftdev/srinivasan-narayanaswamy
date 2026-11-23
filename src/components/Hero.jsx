@@ -78,7 +78,7 @@ export default function Hero({ profile }) {
               href={`https://wa.me/${profile.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 border border-ink px-6 py-3.5 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white"
+              className="flex items-center text-white bg-[#25D366] gap-2 border border-ink px-6 py-3.5 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white"
             >
               <FaWhatsapp className="h-4 w-4" />
               WhatsApp
